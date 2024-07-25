@@ -1,0 +1,16 @@
+.order {
+  /* display: flex; */
+  display: flex
+  margin-top: 20px;
+  margin-bottom: 20px
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+}
+.order_image {
+  display: flex;
+  object-fit: contain;
+  width: 90px;
+  height: 90px;
+}

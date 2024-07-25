@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.logo {
+  width: 100px;
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.login_container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-color: white;
+}
+.inner_container {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 400px;
+  width: 320px;
+  border: 1px solid;
+  padding: 20px 25px;
+}
+.input_field {
+  height: 30px;
+  width: 310px;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+}
+.input_fields {
+  display: flex;
+  flex-direction: column;
+}
+.signin_button {
+  height: 30px;
+  width: 310px;
+  margin-top: 15px;
+  background-color: #f7ca00;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: black;
+  border-radius: 3px;
+  margin-left: 2px;
+}
+.header_text {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 2px;
+}
+.tnc {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.s-fix {
+  margin-left: 13px;
+  margin-top: 8px;
+}
+summary {
+  font-size: 13px;
+}
+.work_text {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.shop_link {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.signup_button {
+  height: 30px;
+  width: 310px;
+  margin-top: 15px;
+  background-color: #e3e6e6;
+  border: 1px solid;
+  margin-top: 10px;
+  /* border-color: #a88734 #9c7e31 #846a29; */
+  color: black;
+  border-radius: 3px;
+  margin-left: 2px;
+}
